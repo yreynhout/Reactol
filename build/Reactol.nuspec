@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Reactol</id>
+    <version>0.0.0</version>
+    <authors>Yves Reynhout</authors>
+    <owners>Yves Reynhout</owners>
+    <title>Reactol</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.github.com/yreynhout/Reactol/master/LICENSE.txt</licenseUrl>
+    <description>Reactol provides lightweight infrastructure for producing SQL based projections.</description>
+    <projectUrl>https://github.com/yreynhout/Reactol</projectUrl>
+    <releaseNotes>Changes: 
+- xt0rted added support for DateTime/DateTime2/Money datatypes.
+- SqlProjectionDescriptor removed (moved to recipes in source).
+- Built-in messages removed (moved to recipes in source).</releaseNotes>
+    <copyright>Copyright 2014, BitTacklr. All rights reserved.</copyright>
+    <tags>eventsourcing DDDesign</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Paramol" version="0.0.100" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="output\csharp\Reactol.dll" target="lib\net45\Reactol.dll" />
+    <file src="output\csharp\Reactol.pdb" target="lib\net45\Reactol.pdb" />
+    <file src="output\csharp\Reactol.xml" target="lib\net45\Reactol.xml" />
+    <file src="..\src\Reactol\*.cs" target="src\Reactol" />
+    <file src="..\src\Reactol\Properties\*.cs" target="src\Reactol\Properties" />
+  </files>
+</package>

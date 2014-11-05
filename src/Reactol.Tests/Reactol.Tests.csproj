@@ -7,8 +7,8 @@
     <ProjectGuid>{B5AACA2D-60AE-4567-B66D-DABFC3995561}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Reactol.UnitTests</RootNamespace>
-    <AssemblyName>Reactol.UnitTests</AssemblyName>
+    <RootNamespace>Reactol</RootNamespace>
+    <AssemblyName>Reactol.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -36,13 +36,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ReactionBuilderTests.cs" />
     <Compile Include="ReactionHandlerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReactionTests.cs" />

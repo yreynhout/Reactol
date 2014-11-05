@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactol", "Reactol\Reactol.csproj", "{69D620D4-3181-4CDD-900E-516699A2B9FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactol.UnitTests", "Reactol.UnitTests\Reactol.UnitTests.csproj", "{B5AACA2D-60AE-4567-B66D-DABFC3995561}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactol.Tests", "Reactol.Tests\Reactol.Tests.csproj", "{B5AACA2D-60AE-4567-B66D-DABFC3995561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

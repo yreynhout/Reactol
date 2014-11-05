@@ -8,19 +8,11 @@
     <title>Reactol</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://raw.github.com/yreynhout/Reactol/master/LICENSE.txt</licenseUrl>
-    <description>Reactol provides lightweight infrastructure for producing SQL based projections.</description>
+    <description>Reactol provides lightweight infrastructure for producing message reactions.</description>
     <projectUrl>https://github.com/yreynhout/Reactol</projectUrl>
-    <releaseNotes>Changes: 
-- xt0rted added support for DateTime/DateTime2/Money datatypes.
-- SqlProjectionDescriptor removed (moved to recipes in source).
-- Built-in messages removed (moved to recipes in source).</releaseNotes>
+    <releaseNotes>Initial release.</releaseNotes>
     <copyright>Copyright 2014, BitTacklr. All rights reserved.</copyright>
-    <tags>eventsourcing DDDesign</tags>
-    <dependencies>
-      <group targetFramework=".NETFramework4.5">
-        <dependency id="Paramol" version="0.0.100" />
-      </group>
-    </dependencies>
+    <tags>messaging eventsourcing DDDesign</tags>
   </metadata>
   <files>
     <file src="output\csharp\Reactol.dll" target="lib\net45\Reactol.dll" />
